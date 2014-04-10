@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IUSM Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <noscript>
+      <link rel="stylesheet" type="text/css" href="css/noscript.css" />
+    </noscript>			
+  </head>
+  <body>
+    <div class="container">
+      <header> 	
+      <h1 class ="logo" ><a href="#">IUSM</a></h1>
+      <h3 class ="intro">Indiana University Student Ministries</h3>	
+      </header>
+      <nav class="navbar">
+      <div class="navbar-inner">
+        <ul class="nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./events.html">Events</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li class="active"><a href="./get_involved.html">Get Involved </a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      </nav>
+
+      <!--From here Main Content starts (code Above should remain common through out the webpage)  -->
+      <div class=" row hero-unit">
+
+        <h3> Get Involved page </h3>
+        <p>Welcome to the get involved page </p>
+        
+      <hr>
+      <!--Below content is part of footer  ( code below should remain common through out the webpage)  -->
+      <footer>
+      <p>&copy; Team 16- Advance Database Concepts 2013</p>
+      </footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript">
+      $(function() {
+          $('#ei-slider').eislideshow({
+animation			: 'center',
+autoplay			: true,
+slideshow_interval	: 3000,
+titlesFactor		: 0
+});
+          });
+</script>	
+  </body>
+</html>
